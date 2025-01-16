@@ -1,0 +1,266 @@
+.loginform{
+  height:1080px;
+  width: full;
+ 
+  display:flex;
+}
+
+.information{
+  height: 1080px;
+  width: 50%;
+  background: linear-gradient(180deg, #6F00FF 0%, #7947BB 100%);
+
+}
+
+.logo{
+  margin-top: 69px;
+  margin-left: 80px;
+  gap: 10px;
+  padding-left: 10px;
+}
+#userlogo{
+  width: 32px;
+height: 32px;
+margin-top: 20px;
+margin-left: 80px;
+ 
+border-radius: 23px;
+ 
+color: rgba(255, 255, 255, 1);
+}
+
+.heading1{
+  margin-top: 30px;
+  margin-left: 80px;
+ width: 350px;
+ height: 55px;
+ /* color: azure; */
+}
+.heading2{
+  width: 350px;
+  height: 39px;
+  margin-top: 0px;
+  margin-left: 80px;
+  padding: 10px 0px 0px 0px;
+ 
+  opacity: 0px;
+  
+}
+.search1{
+  position:absolute;
+  top: 220px;
+  left:30px;
+ 
+  width: 246px;
+height: 246px;
+margin-top: 10px;
+margin-left:520px;
+ 
+}
+.search2{
+  position:absolute;
+  top: 330px;
+  left:1px;
+ 
+  width: 240px;
+height: 240px;
+margin-top: 8px;
+margin-left: 6px;
+ 
+}
+ 
+.bgdiv{
+  height: 400px;
+  width: 400px;
+  border-top-left-radius: 40px;  
+  border-top-right-radius:40px;
+  background: rgba(204, 166, 255, 1);
+
+  position: absolute;
+  top: 688px;
+  left: 50px;
+
+}
+#msg1{
+  position: relative;
+  top:30px;
+  left: 38px;
+  margin-bottom: 5px;
+}
+
+.msgboxes2{
+  position: absolute;
+  top:570px;
+  left:400px;
+   /* background-color: red;  */
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+
+}
+.msgboxes1{
+  position: absolute;
+  top:550px;
+  left:330px;
+   /* background-color: red; */
+  height: 250px;
+  width: 250px;
+   
+
+}
+#box1{
+  position: absolute;
+  top:0px;
+  bottom: 30px;
+  left:15px;
+  
+}
+#box2{
+  position: absolute;
+  top:100px;
+  left:20px;
+  height: 70px;
+  width: 220px;
+}
+#box3{
+  position: absolute;
+  top:170px;
+  left:12px;
+}
+
+
+.codingimage{
+  position:absolute;
+  top: 870px;
+  left:510px;
+  
+  width: 200px;
+height: 200px;
+ 
+ 
+}
+#codeimg{
+  height: 230px;
+  width: 230px;
+}
+/* ---------------------- */
+
+
+.login-container {
+  position: relative;
+  top: 150px;
+  left: 130px;
+  height: 600px;
+  width: 450px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  /* border: 0.5px solid black; */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+ 
+  text-align: center;
+}
+ 
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #686767;
+}
+
+.select-text {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Toggle Buttons */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25x;
+}
+
+.toggle-btn {
+  border: 2px solid #a273ff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  color: #a273ff;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background-color: #a273ff;
+  color: #fff;
+}
+
+/* Input Groups */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.input-group .icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #888;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.input-group .eye {
+  cursor: pointer;
+}
+
+ 
+.forgot-password {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: left;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+ 
+.login-btn {
+  background-color: #c3a6fc;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #874edd;
+}
+
+/* Register Text */
+.register-text {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+.register-text a {
+  color: #a273ff;
+  text-decoration: none;
+  font-weight: bold;
+}
